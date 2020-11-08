@@ -10,9 +10,6 @@ body {
     color: gray;
 }
 
-.container {
-}
-
 h1 {
     font-weight: normal;
     font-size: 3.125rem;
@@ -34,10 +31,37 @@ video {
     margin-top: 2%;
 }
 
+.image-container {
+    width: 96%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#campsite {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 #phone-icon {
     margin-top: 1%;
 }
 
 footer {
     text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    #phone-icon {
+        margin-top: 2%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
 }

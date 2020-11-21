@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+    font-size: 2vmin;
 }
 
 body {
@@ -11,14 +11,14 @@ body {
 }
 
 h1 {
-    font-weight: normal;
     font-size: 3.125rem;
+    font-weight: normal;
     color: white;
 }
 
 h2 {
-    font-weight: 300;
     font-size: 2.625rem;
+    font-weight: 300;
     color: white;
 }
 
@@ -28,6 +28,9 @@ a {
 }
 
 video {
+    width: 46%;
+    max-width: 400px;
+    height: auto;
     margin-top: 2%;
 }
 
@@ -45,6 +48,8 @@ video {
 }
 
 #phone-icon {
+    width: 10%;
+    max-width: 64px;
     margin-top: 1%;
 }
 
@@ -52,16 +57,29 @@ footer {
     text-align: right;
 }
 
-@media only screen and (max-width: 600px) {
-    #phone-icon {
-        margin-top: 2%;
-    }
-
+@media only screen and (max-width: 568px) {
+    
     h1 {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
     
     h2 {
+        font-size: 3rem;
+    }
+
+    a {
         font-size: 2rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    video {
+        width: 96%;
+    }
+
+    #phone-icon {
+        margin-top: 2%;
     }
 }
